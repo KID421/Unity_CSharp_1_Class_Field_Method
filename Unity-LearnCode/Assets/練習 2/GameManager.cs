@@ -18,6 +18,6 @@ public class GameManager : MonoBehaviour
         Debug.Log("戰士經驗值 - 取得：" + WarriorA.Exp);
 
         WarriorA.Exp = 777;
-        Debug.Log("戰士經驗值 - 設定：" + WarriorA.Exp);
+        Debug.Log("戰士經驗值 - 設定：" + WarriorA.exp);
     }
 }
